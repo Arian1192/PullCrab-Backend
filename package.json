@@ -1,0 +1,36 @@
+{
+  "name": "pullcrab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha './src/**/*.test.js' "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^19.0.8",
+    "@slack/bolt": "3.13.1",
+    "chai": "^4.3.7",
+    "colors": "1.4.0",
+    "cors": "^2.8.5",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.1.1",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12",
+    "passport-slack-oauth2": "^1.1.1",
+    "redis": "^4.6.6",
+    "sinon": "^15.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "dotenv": "16.0.3",
+    "mocha": "^10.2.0",
+    "nodemon": "2.0.22"
+  }
+}
